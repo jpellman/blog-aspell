@@ -1,0 +1,5 @@
+name: 'Aspell'
+description: 'This action checks for spelling mistakes within my blog and MkDocs repositories.'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
